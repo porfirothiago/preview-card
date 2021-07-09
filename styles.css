@@ -1,0 +1,97 @@
+/* Font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* Styling */
+
+body {
+    background-color: #0A0C1B;
+}
+
+#title {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+#title-bold {
+    color: #A55ED4;
+}
+
+#main-text {
+    color: #8D8BA1;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container {
+    /* width: 1440px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.left-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 446px;
+    background-color: #1C1938;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#column {
+    width: 100%;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#image-block {
+    margin: auto;
+    margin-right: 0px;
+    margin-left:0px;
+    background: hsl(277, 64%, 61%);
+    overflow: hidden;
+    height: 446px;
+}
+
+#img {
+    opacity: 0.4;
+}
+
+#mini-grid-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.number {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    color: #8D8BA1;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

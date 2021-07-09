@@ -5,29 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>CHALLENGE - Frontend Mentor | Stats preview card component</title>
 </head>
+
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <div class="left-block">
+      <div id="column">
+        <h1 id="title">Get <b id="title-bold">insights</b> that help your business grow.</h1>
+        <p id="main-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+        <div id="mini-grid-col">
+          <div class="mini-column" id="mini-column1">
+            <p class="number">10k+</p> 
+            <p class="subtitle">companies</p>
+          </div>
+          <div class="mini-column" id="mini-column2">
+            <p class="number">314</p> 
+            <p class="subtitle">templates</p>
+          </div>        <div class="mini-column" id="mini-column3">
+            <p class="number">12M+</p> 
+            <p class="subtitle">queries</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div id="image-block"><img id="img" src="/images/image-header-desktop.jpg" alt=""></div>
   </div>
+
+<!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div> -->
+
 </body>
 </html>
